@@ -25,6 +25,10 @@ function main() {
   $(function () {
       $(window).scroll(sticky_relocate);
       sticky_relocate();
+
+      $('.showMyCarousel').click(function () {
+        $('#myCarousel').show();
+      });
   });
 
     

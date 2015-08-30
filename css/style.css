@@ -5,6 +5,7 @@ body, html{
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media (min-width: 1200px){
@@ -221,8 +222,7 @@ ul.cat.list-inline li a:hover{
 .nopadding{ padding:  0;}
 
 #tf-about{
-	background: url(../img/07.jpg);
-	background-size: cover;
+	background-color: #293f50;
 	background-position: center;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -235,8 +235,58 @@ ul.cat.list-inline li a:hover{
 	padding: 10% 0;
 }
 
+#tf-about h3 {
+	color: #648880;
+	font-size: 30px;
+	text-align: center;
+}
+
+#tf-portfolio h3 {
+	color: #648880;
+	font-size: 30px;
+	text-align: center;
+}
+
+#tf-about p {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+#tf-expense{
+	margin-top: 30px;
+}
+
+#tf-expense h3 {
+	font-size: 30px;
+	text-align: center;
+	color: #648880;
+}
+
+#tf-expense a {
+	color: #009bff;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+#tf-expense a:hover {
+	color: #005d99;
+}
+
+#tf-expense h2 {
+	font-size: 25px;
+	text-align: left;
+	color: #648880;
+}
+
+#tf-expense p {
+	font-size: 17px;
+	font-weight: 100;
+}
+
+
 #tf-resume{
-	background: url(../img/10.jpg);
+	background-color: #293f50;
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
@@ -249,6 +299,23 @@ ul.cat.list-inline li a:hover{
 	background-attachment: fixed;
 	padding: 5% 0;
 }
+
+#tf-resume h3{
+	text-align: center;
+}
+
+#tf-resume h3 {
+	color: #648880;
+	font-size: 30px;
+}
+
+#tf-resume li {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+
 ul.why-me li{
 	margin: 10px 0;
 }
@@ -261,6 +328,24 @@ ul.why-me li{
 	padding: 5% 0;
 	text-align: center;
 }
+
+#tf-contact h3 {
+	color: #648880;
+	font-size: 30px;
+}
+
+#tf-contact a {
+	color: #009bff;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+
+
+#tf-contact a:hover {
+	color: #005d99;
+}
+
 
 form#contact {
 	padding: 5%;
